@@ -1104,6 +1104,16 @@ export default class News extends Component {
             loading:false
         }
     }
+
+    async componentDidMount(){
+      console.log("cdm");
+      let url= "https://newsapi.org/v2/top-headlines?country=in&sortBy=publishedAt&apiKey=acc93718e32a44c79ab16ebbcc146b46";
+      let data = await fetch (url);
+      let parsedData= await data.json();
+      console.log(parsedData);
+      this.setState({ articles: parsedData.articles })
+
+    }
   render() {
     return (
       <div className="container my-3" >
@@ -1111,7 +1121,7 @@ export default class News extends Component {
         <div className="row">
         { this.state.articles.map(( element )=>{ 
             return <div className="col-md-4" key={ element.url } >
-                <Newsitems title={ element.title } description={ element.description.slice( 0,97 ) } imageUrl={ element.urlToImage } newsUrl={ element.url}  />
+                <Newsitems title={ element.title?element.title.slice( 0,45 ):" " } description={ element.description?element.description.slice( 0,97 ):" " } imageUrl={ element.urlToImage?element.urlToImage : "data:image/jpeg;base64,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"} newsUrl={ element.url}  />
             </div>
            
          }) }         
