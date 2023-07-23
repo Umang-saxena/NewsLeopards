@@ -1,4 +1,3 @@
-// https://newsapi.org/v2/everything?q=cricket&apiKey=acc93718e32a44c79ab16ebbcc146b46
 {
     "status": "ok",
     "totalResults": 5591,
