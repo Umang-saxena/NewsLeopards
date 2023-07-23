@@ -31,32 +31,6 @@ export default class News extends Component {
         },
         {
           "source": {
-            "id": "google-news",
-            "name": "Google News"
-          },
-          "author": null,
-          "title": "Nissanka century earns Sri Lanka Cricket World Cup berth - Reuters",
-          "description": "Nissanka century earns Sri Lanka Cricket World Cup berth  Reuters",
-          "url": "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMia2h0dHBzOi8vd3d3LnJldXRlcnMuY29tL3Nwb3J0cy9jcmlja2V0L25pc3NhbmthLWNlbnR1cnktZWFybnMtc3JpLWxhbmthLWNyaWNrZXQtd29ybGQtY3VwLWJlcnRoLTIwMjMtMDctMDIv0gEA?oc%3D5&gl=FR&hl=en-US&cm=2&pc=n&src=1",
-          "urlToImage": null,
-          "publishedAt": "2023-07-02T13:09:00Z",
-          "content": "We use cookies and data to<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to unde… [+1131 chars]"
-        },
-        {
-          "source": {
-            "id": "google-news",
-            "name": "Google News"
-          },
-          "author": null,
-          "title": "Cricket dismissal row draws in Australian and UK Prime Ministers - Reuters.com",
-          "description": "Cricket dismissal row draws in Australian and UK Prime Ministers  Reuters.com",
-          "url": "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3LnJldXRlcnMuY29tL3Nwb3J0cy9jcmlja2V0L2NyaWNrZXQtZGlzbWlzc2FsLXJvdy1kcmF3cy1hdXN0cmFsaWFuLXVrLXByaW1lLW1pbmlzdGVycy0yMDIzLTA3LTA0L9IBAA?oc%3D5&gl=FR&hl=en-US&cm=2&pc=n&src=1",
-          "urlToImage": null,
-          "publishedAt": "2023-07-04T08:43:00Z",
-          "content": "We use cookies and data to<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to unde… [+1131 chars]"
-        },
-        {
-          "source": {
             "id": null,
             "name": "The Guardian"
           },
@@ -1120,216 +1094,30 @@ export default class News extends Component {
           "urlToImage": "https://i.guim.co.uk/img/media/a57b6fd8b02da3618174e1aa6ecf653b3972a56e/0_106_3604_2163/master/3604.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c1191bd75c6ea5447040e72961e9170d",
           "publishedAt": "2023-06-22T20:52:59Z",
           "content": "It was one of those moments where the needle scratches on the record; when the usual rhythms of red-ball cricket are suddenly altered by a disturbance, prompting backsides on to the edges of seats an… [+13412 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "Geoff Lemon at Lord's (now) and Rob Smyth (later)",
-          "title": "The Ashes 2023: England v Australia, second Test, day four – live",
-          "description": "<ul><li>Play at Lord’s on day four from 11am BST/8pm AEST</li><li>Sign up to The Spin newsletter | Email Geoff or tweet him</li></ul>England women’s captain Heather Knight has spoken about the ICEC report finding that women were marginalised in cricket – not …",
-          "url": "https://www.theguardian.com/sport/live/2023/jul/01/the-ashes-2023-england-vs-australia-live-updates-second-test-cricket-eng-v-aus-latest-score-day-four-lords",
-          "urlToImage": "https://i.guim.co.uk/img/media/6df285c666b60bd439b853f7543cddbc29d07c71/18_0_3212_1928/master/3212.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=4b6f124af502caa2b5eb7eb0facc0f14",
-          "publishedAt": "2023-07-01T09:13:51Z",
-          "content": "Good morning, good morning, the general said. Ive wandered around Lords already this morning and had a number of conversations with some fairly downcast English folk. They dont think theres a way bac… [+1017 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "Tanya Aldred",
-          "title": "Ashes series heads to Old Trafford seeking a perfect pitch amid the noise",
-          "description": "Rain and a lack of recent first-class cricket at Lancashire’s home means the jury is out on what surface awaits on WednesdayWhen Jimmy Anderson pauses at the top of his mark at Old Trafford this week, he will have his neat white boots on familiar clod.But muc…",
-          "url": "https://www.theguardian.com/sport/2023/jul/18/ashes-series-old-trafford-pitch-cricket-england-australia-fourth-test",
-          "urlToImage": "https://i.guim.co.uk/img/media/dd190378a36c6f85e176e401b3b5ed834e0339d5/40_62_3952_2372/master/3952.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9e54e73723894dd986db80ad9dd2c22c",
-          "publishedAt": "2023-07-18T12:25:34Z",
-          "content": "When Jimmy Anderson pauses at the top of his mark at Old Trafford this week, he will have his neat white boots on familiar clod.\r\nBut much has changed since the almost 41-year-old Anderson first set … [+9622 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "Gerard Meagher",
-          "title": "British & Irish Lions aim for records as 2025 Australia tour dates confirmed",
-          "description": "<ul><li>MCG will host second Test and 100,000 attendance targeted</li><li>Boost for Borthwick as Marcus Smith signs new Quins deal</li></ul>The British & Irish Lions will lock horns with Australia at the Melbourne Cricket Ground on their 2025 tour and seek to…",
-          "url": "https://www.theguardian.com/sport/2023/jul/19/british-irish-lions-aim-for-records-as-2025-australia-tour-dates-confirmed",
-          "urlToImage": "https://i.guim.co.uk/img/media/7adebe49070f5478800a78198cc57413e8e7133c/0_367_5500_3300/master/5500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=98f6794cf21aacb9e7715de9433048cc",
-          "publishedAt": "2023-07-19T10:53:24Z",
-          "content": "The British &amp; Irish Lions will lock horns with Australia at the Melbourne Cricket Ground on their 2025 tour and seek to set a record crowd of 100,000 at the iconic venue.\r\nThe Lions have announce… [+10479 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "PA Media",
-          "title": "Matthew Hayden turns up Ashes heat on ‘forgettable cricketer’ Ollie Robinson",
-          "description": "<ul><li>Former Australia great takes swipe at bowler on SEN Radio</li><li>Ricky Ponting hits back at Robinson on cricket podcast</li></ul>The former Australian greats Matthew Hayden and Ricky Ponting have rounded on England’s Ollie Robinson after the seamer’s…",
-          "url": "https://www.theguardian.com/sport/2023/jun/22/ashes-cricket-ollie-robinson-matthew-hayden-ricky-ponting",
-          "urlToImage": "https://i.guim.co.uk/img/media/5e8c7388fe9e27f50a44af372f4f8a752eb448cd/2_96_3332_2000/master/3332.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5a0f10345275b907cc1a63d431bcc501",
-          "publishedAt": "2023-06-22T11:50:07Z",
-          "content": "The former Australian greats Matthew Hayden and Ricky Ponting have rounded on Englands Ollie Robinson after the seamers provocative display in the Ashes opener at Edgbaston.\r\nRobinson was happy to of… [+7555 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "Geoff Lemon (now) and James Wallace (later)",
-          "title": "England v Australia: Women’s Ashes second one-day international – live",
-          "description": "<ul><li>Updates from the ODI at Southampton’s Rose Bowl</li><li>The cricket starts at 11am BST/8pm AEST</li><li>Any thoughts? Email or tweet @GeoffLemonSport</li></ul>Here we go again. After Australia won the Test match and the first T20 in this year’s Women’…",
-          "url": "https://www.theguardian.com/sport/live/2023/jul/16/womens-ashes-2023-england-vs-australia-live-updates-odi-one-day-international-cricket-eng-v-aus-latest-score-scorecard-southampton-rose-bowl",
-          "urlToImage": "https://i.guim.co.uk/img/media/2362a4f7e9baf7a1f52f7434a19f15ca87e4022d/0_170_5568_3341/master/5568.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=3ef698d55fa895b801f69aa3b9e24608",
-          "publishedAt": "2023-07-16T09:00:27Z",
-          "content": "Here we go again. After Australia won the Test match and the first T20 in this years Womens Ashes series, there was surely no way back for the other team. England werent going to beat the world champ… [+992 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "Kevin Rushby",
-          "title": "Let the bog snorkelling commence! 10 of the weirdest sporting events in the UK",
-          "description": "From ferret racing to shinkicking, we round up some of the country’s most eccentric sporting events. Oddly, cricket isn’t among them …All modern sports can seem faintly ridiculous to the non-affiliated. How on earth did anyone come up with cricket? Or two pac…",
-          "url": "https://www.theguardian.com/travel/2023/jun/28/10-weird-sporting-events-in-the-uk",
-          "urlToImage": "https://i.guim.co.uk/img/media/f21e95c41ea07f053c227535844c385d158b8e63/0_162_5200_3121/master/5200.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5c499d0ddd0fb253ed6c8855c0b8ee49",
-          "publishedAt": "2023-06-28T06:00:01Z",
-          "content": "All modern sports can seem faintly ridiculous to the non-affiliated. How on earth did anyone come up with cricket? Or two packs of eight sturdy warriors all hugging each other, crouching down and loc… [+17261 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "Raf Nicholson",
-          "title": "The Spin | Women’s Ashes has been enthralling, and for that you can thank England",
-          "description": "Hosts put the emphasis on entertainment and, much like the men’s team, it freed them from pressure and results followedAs far as reactions go to forgoing the Ashes, England’s response on Sunday evening, after Australia pipped them at the post in the Southampt…",
-          "url": "https://www.theguardian.com/sport/2023/jul/19/the-spin-womens-ashes-enthralling-thank-england-cricket",
-          "urlToImage": "https://i.guim.co.uk/img/media/578412409d0f4fd0589582a1f04e8e1ea32d66d9/185_262_3315_1989/master/3315.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=342ee57b7d64c2dfde84790e6e703af5",
-          "publishedAt": "2023-07-19T14:12:42Z",
-          "content": "As far as reactions go to forgoing the Ashes, Englands response on Sunday evening, after Australia pipped them at the post in the Southampton ODI by a mere three runs, was oddly upbeat. First, Heathe… [+10753 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "Geoff Lemon at Lord's",
-          "title": "David Warner shows he is still up for the Ashes fight with opening stand | Geoff Lemon",
-          "description": "On his last Ashes tour the opener, more watchful than in the past, again gave Australia a good start at Lord’s in second TestYou get the sense that David Warner has spent his lifetime looking for a fight. Speak to players who came up against the young version…",
-          "url": "https://www.theguardian.com/sport/blog/2023/jun/28/david-warner-great-survivor-up-for-ashes-fight-australia-england",
-          "urlToImage": "https://i.guim.co.uk/img/media/225cd7736424d07e5717a58cb50bf1305258a9d0/0_94_3620_2173/master/3620.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=abba22910660af8dc1f4e3c4350dffcf",
-          "publishedAt": "2023-06-28T18:14:16Z",
-          "content": "You get the sense that David Warner has spent his lifetime looking for a fight. Speak to players who came up against the young version in suburban Sydney cricket, remembering Warner prowling the boun… [+4691 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "Guardian Staff",
-          "title": "We must tell the stories of all West Indians of Windrush generation | Letter",
-          "description": "There is little coverage of those who were not of African heritage, says Dr Ray BachanI arrived in this country in 1965 on a boat from Georgetown, Guyana, via Trinidad to a cold and wet Southampton with my mother and baby sister, and many other citizens from …",
-          "url": "https://www.theguardian.com/uk-news/2023/jun/25/we-must-tell-the-stories-of-all-west-indians-of-windrush-generation",
-          "urlToImage": "https://i.guim.co.uk/img/media/2da2cae62550ea63e7bbed94822675c4116ea56d/0_17_5090_3053/master/5090.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3d70af1e9fcfa58ae8e649facba5815b",
-          "publishedAt": "2023-06-25T15:15:59Z",
-          "content": "I arrived in this country in 1965 on a boat from Georgetown, Guyana, via Trinidad to a cold and wet Southampton with my mother and baby sister, and many other citizens from the Caribbean. My parents … [+1022 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "Megan Maurice (now) and James Wallace (later)",
-          "title": "Women’s Ashes Test: England chase 268 against Australia on final day – live",
-          "description": "<ul><li>Play in Nottingham starts at 11am BST/ 8pm AEST</li><li>Get in touch: email Megan or tweet @meganmaurice</li></ul>Next up we have Raf Nicholson on England’s collapse and the damage that Ash Gardner inflicted.Time to catch up on the required reading be…",
-          "url": "https://www.theguardian.com/sport/live/2023/jun/26/womens-ashes-2023-england-vs-australia-live-updates-test-match-cricket-eng-v-aus-latest-score-scorecard-day-five-trent-bridge",
-          "urlToImage": "https://i.guim.co.uk/img/media/38b76c5a605ea2969d14e1ecac585ea0950bfad3/0_382_5754_3452/master/5754.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=d65f6c67ac96ebe178e66e528d3988e7",
-          "publishedAt": "2023-06-26T09:14:27Z",
-          "content": "Probably my favourite thing about Test cricket is that a match can truly be poised like no other sport. Weve been begging for five day Tests for women for what feels like forever and finally our wish… [+1163 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "Thomas Eaton",
-          "title": "What links Cabaret and Democracy? The Saturday quiz",
-          "description": "From the River of January to Top of the Pops, test your knowledge with the Saturday quiz1 What did Max Park solve in 3.13 seconds in June?2 Which African empire was founded by Osei Tutu?3 Which house was served by Wolferton railway station?4 Who appeared heav…",
-          "url": "https://www.theguardian.com/lifeandstyle/2023/jul/08/what-links-cabaret-and-democracy-the-saturday-quiz",
-          "urlToImage": "https://i.guim.co.uk/img/media/25705f64adf78cb16b244c514be0032fa1f9adbf/0_0_3245_1948/master/3245.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fd3eb77b7d3b1b1a016a4bec94478588",
-          "publishedAt": "2023-07-08T06:00:09Z",
-          "content": "The questions\r\n1 What did Max Park solve in 3.13 seconds in June?2 Which African empire was founded by Osei Tutu?3 Which house was served by Wolferton railway station?4 Who appeared heavily pregnant … [+1280 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "James Wallace at Headingley (now) and Tanya Aldred (later)",
-          "title": "The Ashes 2023: England v Australia, third Test, day four – live",
-          "description": "<ul><li>Over-by-over updates from Headingley (11am BST/8pm AEST)</li><li>Nick Compton: ‘People who seem complex are worth the bother’</li><li>Get in touch! Email James here or tweet @Jimbo_Cricket</li></ul>Don McRae speaks to Nick Compton:Morning reading, cat…",
-          "url": "https://www.theguardian.com/sport/live/2023/jul/09/the-ashes-2023-england-v-australia-third-test-day-four-live",
-          "urlToImage": "https://i.guim.co.uk/img/media/3183936442fab9e617a401bac60ccf14ddb42a76/0_263_3500_2100/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=7705b3e83a418db3543f1473a4839c5c",
-          "publishedAt": "2023-07-09T09:08:11Z",
-          "content": "Good morning and welcome to a pivotal day in this mens Ashes series. Today could be the day that Australia reclaim the urn, ten Sunday English wickets at Headingley will see the visitors win their fi… [+1167 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "Geoff Lemon (now) and Tim de Lisle (later)",
-          "title": "Women’s Ashes: England v Australia, third one-day international – live",
-          "description": "<ul><li>Over-by-over updates from Taunton </li><li>Play in the third ODI starts at 1pm BST/10pm AEST</li><li>Get in touch! Email Geoff or tweet @GeoffLemonSport</li></ul>I had a look at Australia’s double-leg-spin selection, one that they didn’t use in Bristo…",
-          "url": "https://www.theguardian.com/sport/live/2023/jul/18/womens-ashes-2023-england-vs-australia-third-one-day-international-live-updates-scores-results-eng-vs-aus-cricket-odi-taunton",
-          "urlToImage": "https://i.guim.co.uk/img/media/ccfd525961b71fcc473cd8a05246e86607181b81/0_118_4000_2400/master/4000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=7ed879236eda062fe5a3980d412c5a94",
-          "publishedAt": "2023-07-18T11:16:08Z",
-          "content": "And so we arrive at this. Ten days of brilliant cricket across three formats for the Womens Ashes series of 2023, one that must take the mantle as the best weve seen, once you combine the quality of … [+998 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "The Guardian"
-          },
-          "author": "Larry Elliott",
-          "title": "Economic ‘Bazball’ will have replaced UK’s safety-first approach to inflation and growth by 2025 | Larry Elliott",
-          "description": "Rishi Sunak used just-go-for-it route in Covid crisis but Treasury and Bank of England now play with straightest of batsThe England cricket team are winning friends and admirers after adopting a style of play known as Bazball. Named after the side’s coach, Br…",
-          "url": "https://www.theguardian.com/business/2023/jul/16/economic-bazball-uk-safety-first-approach-inflation-growth-rishi-sunak-bank-of-england",
-          "urlToImage": "https://i.guim.co.uk/img/media/78fa2b2fbfb05ec5bc50eaf525676a4a52981c33/17_745_2851_1712/master/2851.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=7175b5c3979a65c197fdefc630ec5259",
-          "publishedAt": "2023-07-16T10:20:19Z",
-          "content": "The England cricket team are winning friends and admirers after adopting a style of play known as Bazball. Named after the sides coach, Brendon (Baz) McCullum, it is an aggressive, carefree approach … [+10873 chars]"
         }
       ];
-
     constructor(){
         super();
         console.log("I am console log of News Component");
         this.state ={
-            articles : articles
+            articles : this.articles,
+            loading:false
         }
     }
   render() {
     return (
-      <div className="container my-3">
+      <div className="container my-3" >
         <h2 className='mb-4' >News Leopards - Top Headlines</h2>
         <div className="row">
-            <div className="col-md-4">
-                <Newsitems title="myTitle" description="myDesc" imageUrl={"https://ichef.bbci.co.uk/news/1024/branded_news/14F1F/production/_130219758_sofiatastingcrickettagliatelle.jpg"} />
+        { this.state.articles.map(( element )=>{ 
+            return <div className="col-md-4" key={ element.url } >
+                <Newsitems title={ element.title } description={ element.description.slice( 0,97 ) } imageUrl={ element.urlToImage } newsUrl={ element.url}  />
             </div>
-            <div className="col-md-4">
-                <Newsitems title="myTitle" description="myDesc" imageUrl={"https://ichef.bbci.co.uk/news/1024/branded_news/14F1F/production/_130219758_sofiatastingcrickettagliatelle.jpg"} />
-            </div>
-            <div className="col-md-4">
-                <Newsitems title="myTitle" description="myDesc" imageUrl={"https://ichef.bbci.co.uk/news/1024/branded_news/14F1F/production/_130219758_sofiatastingcrickettagliatelle.jpg"} />
-            </div>
-            
+           
+         }) }         
         </div>
-
       </div>
     )
   }
 }
+
