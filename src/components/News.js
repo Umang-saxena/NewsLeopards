@@ -1110,23 +1110,22 @@ export default class News extends Component {
 // Below used is a lifecycle method .....will be taught later
     async componentDidMount(){
       // console.log("cdm");
-      let url= "https://newsapi.org/v2/top-headlines?country=in&sortBy=publishedAt&apiKey=acc93718e32a44c79ab16ebbcc146b46&page=1";
+      let url= "https://newsapi.org/v2/top-headlines?country=in&sortBy=publishedAt&apiKey=acc93718e32a44c79ab16ebbcc146b46&page=1&pageSize=18";
       let data = await fetch (url);
       let parsedData= await data.json();
       // console.log(parsedData);
-      this.setState({ articles: parsedData.articles })
+      this.setState({ articles: parsedData.articles , totalResults: parsedData.totalResults })
 
     }
 
     // Functions Used
     handlePrev=async ()=>{
       // console.log("Previous");
-      let url= `https://newsapi.org/v2/top-headlines?country=in&sortBy=publishedAt&apiKey=acc93718e32a44c79ab16ebbcc146b46&page=${this.state.page - 1 }`;
+      let url= `https://newsapi.org/v2/top-headlines?country=in&sortBy=publishedAt&apiKey=acc93718e32a44c79ab16ebbcc146b46&page=${this.state.page - 1 }&pageSize=18`;
       let data = await fetch (url);
       let parsedData= await data.json();
       // console.log(parsedData);
       this.setState({
-
         articles: parsedData.articles,
         page:this.state.page - 1
          })
@@ -1134,14 +1133,19 @@ export default class News extends Component {
         
       handleNext= async ()=>{
         // console.log("Next");
-        let url= `https://newsapi.org/v2/top-headlines?country=in&sortBy=publishedAt&apiKey=acc93718e32a44c79ab16ebbcc146b46&page=${this.state.page + 1 }`;
-        let data = await fetch (url);
-        let parsedData= await data.json();
-        // console.log(parsedData);
-        this.setState({
-          articles: parsedData.articles,
-          page:this.state.page + 1
-            })
+        if( this.state.page + 1 > Math.ceil( this.state.totalResults/20 ) ){
+
+        }
+        else{
+          let url= `https://newsapi.org/v2/top-headlines?country=in&sortBy=publishedAt&apiKey=acc93718e32a44c79ab16ebbcc146b46&page=${this.state.page + 1 }&pageSize=18`;
+          let data = await fetch (url);
+          let parsedData= await data.json();
+          // console.log(parsedData);
+          this.setState({
+            articles: parsedData.articles,
+            page:this.state.page + 1
+              })
+        }
 
 
     }
