@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Newsitems from './Newsitems'
+import Spinner from './Spinner'
 
 export default class News extends Component {
       
@@ -17,10 +18,15 @@ export default class News extends Component {
     async componentDidMount(){
       // console.log("cdm");
       let url= `https://newsapi.org/v2/top-headlines?country=in&sortBy=publishedAt&apiKey=acc93718e32a44c79ab16ebbcc146b46&page=1&pageSize=${this.props.pageSize}`;
+      this.setState({loading:true});
       let data = await fetch (url);
       let parsedData= await data.json();
       // console.log(parsedData);
-      this.setState({ articles: parsedData.articles , totalResults: parsedData.totalResults })
+      this.setState({ 
+        articles: parsedData.articles ,
+        totalResults: parsedData.totalResults,
+        loading:false,
+      })
 
     }
 
@@ -28,37 +34,34 @@ export default class News extends Component {
     handlePrev=async ()=>{
       // console.log("Previous");
       let url= `https://newsapi.org/v2/top-headlines?country=in&sortBy=publishedAt&apiKey=acc93718e32a44c79ab16ebbcc146b46&page=${this.state.page - 1 }&pageSize=${this.props.pageSize}`;
+      this.setState({loading:true});
       let data = await fetch (url);
       let parsedData= await data.json();
       // console.log(parsedData);
       this.setState({
         articles: parsedData.articles,
-        page:this.state.page - 1
+        page:this.state.page - 1,
+        loading:false
          })
         }
         
       handleNext= async ()=>{
         // console.log("Next");
-        if( this.state.page + 1 > Math.ceil( this.state.totalResults/this.props.pageSize) ){
-
-
-        }
-        else{
+        if( !(this.state.page + 1 > Math.ceil( this.state.totalResults/this.props.pageSize)) ){
           let url= `https://newsapi.org/v2/top-headlines?country=in&sortBy=publishedAt&apiKey=acc93718e32a44c79ab16ebbcc146b46&page=${this.state.page + 1 }&pageSize=${this.props.pageSize}`;
+
+          this.setState({loading:true});
           let data = await fetch (url);
           let parsedData= await data.json();
           // console.log(parsedData);
           this.setState({
             articles: parsedData.articles,
-            page:this.state.page + 1
+            page:this.state.page + 1,
+            loading:false
               })
+
         }
-
-
     }
-
-
-
     // --------------------------------------------
 
 
@@ -66,8 +69,9 @@ export default class News extends Component {
     return (
       <div className="container my-3" >
         <h2 className='mb-4 text-center' >News Leopards - Top Headlines</h2>
+        {this.state.loading && <Spinner /> }
         <div className="row">
-        { this.state.articles.map(( element )=>{ 
+        { !this.state.loading && this.state.articles.map(( element )=>{ 
             return <div className="col-md-4" key={ element.url } >
                 <Newsitems title={ element.title?element.title.slice( 0,45 ):" " } description={ element.description?element.description.slice( 0,97 ):" " } imageUrl={ element.urlToImage?element.urlToImage : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"} newsUrl={ element.url}  />
             </div> 
