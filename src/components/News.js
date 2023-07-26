@@ -49,7 +49,6 @@ export default class News extends Component {
       this.setState({loading:true});
       let data = await fetch (url);
       let parsedData= await data.json();
-      // console.log(parsedData);
       this.setState({
         articles: parsedData.articles,
         page:this.state.page - 1,
@@ -85,7 +84,7 @@ export default class News extends Component {
         <div className="row">
         { !this.state.loading && this.state.articles.map(( element )=>{ 
             return <div className="col-md-4" key={ element.url } >
-                <Newsitems title={ element.title?element.title.slice( 0,45 ):" " } description={ element.description?element.description.slice( 0,97 ):" " } imageUrl={ element.urlToImage?element.urlToImage : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"} newsUrl={ element.url}  />
+                <Newsitems title={ element.title?element.title.slice( 0,45 ):" " } description={ element.description?element.description.slice( 0,97 ):" " } author={element.author?element.author:"Unknown"} date={ new Date(element.publishedAt).toGMTString()} imageUrl={ element.urlToImage?element.urlToImage : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"} newsUrl={ element.url} source={ element.source.name } />
             </div> 
          }) }         
         </div>
