@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Newsitems extends Component {
-    render() {
-        let {title,description,author,date,imageUrl,newsUrl,source}=this.props;//Props Can Also be Used in this way(Array Destructuring)
+const Newsitems=(props)=>{
+        let {title,description,author,date,imageUrl,newsUrl,source}=props;//Props Can Also be Used in this way(Array Destructuring)
         return (
             <div className='my-3'>
                 <div className="card" style={{ width: "18rem" }}>
@@ -21,4 +20,4 @@ export default class Newsitems extends Component {
             </div>
         )
     }
-}
+ export default Newsitems;
