@@ -34,7 +34,7 @@ export default class News extends Component {
     }
     updateNews=async()=>{
       this.props.setProgress(10);
-      let url= `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&sortBy=publishedAt&apiKey=${ this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+      let url= `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&sortBy=publishedAt&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
       console.log(url);;
       let data = await fetch (url);
       let parsedData= await data.json();
@@ -52,25 +52,9 @@ export default class News extends Component {
       this.updateNews();
 
     }
-
-    // Functions Used
-    // handlePrev=async ()=>{
-    //   this.setState({
-    //     page: this.state.page -1
-    //   })
-    //   this.updateNews();
-    // }
-    
-    // handleNext= async ()=>{
-    //     this.setState({
-    //       page: this.state.page+1
-    //     })
-    //     this.updateNews();
-    //   }
-      // --------------------------------------------
       fetchMoreData= async ()  =>{
+        let url= `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&sortBy=publishedAt&apiKey=${this.props.apiKey}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
         this.setState({ page: this.state.page+ 1 })
-        let url= `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&sortBy=publishedAt&apiKey=${this.props.aoiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
         console.log(url);
         this.setState({
           loading:true
@@ -83,7 +67,7 @@ export default class News extends Component {
           totalResults: parsedData.totalResults,
           loading:false
         })
-        console.log(this.state.articles.length !== this.state.totalResults)
+        // console.log(this.state.articles.length !== this.state.totalResults)
       }
 
 
